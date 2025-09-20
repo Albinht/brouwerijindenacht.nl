@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Website voor Brouwerij In De Nacht - Artisanale speciaalbieren uit Weert",
   "scripts": {
-    "deploy": "wrangler pages deploy ./ --project-name=brouwerijindenacht-nl",
-    "preview": "wrangler pages dev ./"
+    "serve": "python3 -m http.server 8000",
+    "preview": "open http://localhost:8000 && python3 -m http.server 8000"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  }
+  "license": "ISC"
 }
