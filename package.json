@@ -1,0 +1,14 @@
+{
+  "name": "brouwerijindenacht-nl",
+  "version": "1.0.0",
+  "description": "Website voor Brouwerij In De Nacht - Artisanale speciaalbieren uit Weert",
+  "scripts": {
+    "deploy": "wrangler pages deploy ./ --project-name=brouwerijindenacht-nl",
+    "preview": "wrangler pages dev ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
